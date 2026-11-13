@@ -246,8 +246,3 @@ The dashboard's own Risk Analysis page carries a set of management-facing recomm
 - A few earlier query drafts had alias typos (`avg_interset`, `late_paymetns`) and one used `SUM()` where `AVG()` was intended — caught and corrected during review
 
 
-### Author & Contact
-
-Vivek
-Data Analyst
-🔗 [GitHub](https://github.com/Vivek7ok)
