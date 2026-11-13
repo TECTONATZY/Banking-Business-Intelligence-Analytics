@@ -222,9 +222,6 @@ The Power BI dashboard , branded **PrimeBank**, has 8 pages with consistent left
 A supplementary Excel workbook (`Excel/Bank.xlsx`) mirrors a slice of this analysis in pivot-chart form:
 ![Excel Dashboard](Excel/Dashbored%20Image.png)
 
-### Project Workflow
-![Project Workflow](WorkFlow.jpg)
-
 ### Business Recommendations
 
 The dashboard's own Risk Analysis page carries a set of management-facing recommendations; the points below combine those with supporting recommendations from the wider SQL and dashboard analysis.
