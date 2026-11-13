@@ -108,7 +108,7 @@ Banking_data_analysis/
 
 ### Database Design
 
-All 10 tables were modeled in PostgreSQL (`Sql/Schema.sql`) with explicit primary keys and foreign keys tying every child table back to its parent entity.
+All 10 tables were modeled in PostgreSQL (`Sql/Schema Dataset.sql`) with explicit primary keys and foreign keys tying every child table back to its parent entity.
 
 | Table | Primary Key | Foreign Keys |
 |---|---|---|
@@ -194,28 +194,28 @@ All the files, how they are connected to each other, and which fields are the pr
 The Power BI dashboard (`Power bi/Dashbored.pbix`), branded **PrimeBank**, has 8 pages with consistent left-hand navigation and Year/Month filters:
 
 **Executive Dashboard** — headline KPIs (customers, deposits, fraud %, active loans), deposits by branch, loan amount by status, accounts by status, and a monthly deposits-vs-withdrawals trend
-![Executive Dashboard](Power%20bi/1.png)
+![Executive Dashboard](Power%20bi/ExecutiveDashboard.png)
 
 **Customer Analysis** — demographics by gender, state, and join-year, plus income vs. credit score
-![Customer Analysis](Power%20bi/2.png)
+![Customer Analysis](Power%20bi/CustomersSegmentation.png)
 
 **Branch Performance** — deposits by branch and state, and a full table of customers, deposits, loans, and staffing cost per branch
-![Branch Performance](Power%20bi/3.png)
+![Branch Performance](Power%20bi/Branch_Peformance.png)
 
 **Accounts & Transactions** — account health by type and status, plus transaction volume by channel and type
-![Accounts & Transactions](Power%20bi/4.png)
+![Accounts & Transactions](Power%20bi/Accounts_Analysis.png)
 
 **Loan Analysis** — portfolio by status and loan type, interest rate, late-payment rate, and recovery rate
-![Loan Analysis](Power%20bi/5.png)
+![Loan Analysis](Power%20bi/Loan_Analysis.png)
 
 **Card & Fraud** — spend by card type, spend/fraud by merchant category, and the headline 0.50% fraud rate
-![Card & Fraud](Power%20bi/6.png)
+![Card & Fraud](Power%20bi/Cards.png)
 
 **Customer Support** — ticket volume by issue type and status, with satisfaction score per issue type
-![Customer Support](Power%20bi/7.png)
+![Customer Support](Power%20bi/Support_Analysis.png)
 
 **Risk Analysis** — defaults by branch and loan type, high-risk customer/branch counts, and a recommendations panel built directly into the page
-![Risk Analysis](Power%20bi/8.png)
+![Risk Analysis](Power%20bi/Analysis_Risk.png)
 
 ### Excel
 
