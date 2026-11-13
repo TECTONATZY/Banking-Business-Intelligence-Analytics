@@ -191,7 +191,7 @@ All the files, how they are connected to each other, and which fields are the pr
 
 ### Dashboard
 
-The Power BI dashboard (`Power bi/Dashbored.pbix`), branded **PrimeBank**, has 8 pages with consistent left-hand navigation and Year/Month filters:
+The Power BI dashboard , branded **PrimeBank**, has 8 pages with consistent left-hand navigation and Year/Month filters:
 
 **Executive Dashboard** — headline KPIs (customers, deposits, fraud %, active loans), deposits by branch, loan amount by status, accounts by status, and a monthly deposits-vs-withdrawals trend
 ![Executive Dashboard](Power%20bi/1.png)
